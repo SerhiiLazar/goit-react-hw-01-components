@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import {getRandomHexColor} from '../../helpers/random-color';
+import {getRandomHexColor} from 'helpers/random-color';
 
 export const Statistics = ({title, stats}) => {
-    return  (<section classNameName="statistics">
+    return  (<section className="statistics">
         {title && <h2 className="title">Upload stats</h2>}
 
         <ul className="stat-list">
